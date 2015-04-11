@@ -1,0 +1,10 @@
+<p>Index</p>
+{{#if auth.loggedOut}}
+ログインしていません。
+{{/if}}
+
+<ul>
+  <li>{{#link-to 'signup'}}ユーザー登録{{/link-to}}</li>
+  <li>{{#link-to 'login'}}ログイン{{/link-to}}</li>
+  <li>{{#link-to 'secret'}}秘密のページ{{/link-to}}</li>
+</ul>
